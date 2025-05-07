@@ -1,0 +1,12 @@
+dash
+pandas
+plotly
+python-dotenv
+numpy
+dash-deck
+pydeck
+openpyxl
+gunicorn==23.0.0
+pytest
+dash_bootstrap_components
+flask_caching

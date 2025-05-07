@@ -1,0 +1,75 @@
+*{
+  font-family: "Assistant", sans-serif;
+}
+
+nav {
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding-top: 10px;
+}
+.nav-buttons {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    padding-top: 10px;
+}
+.nav-button {
+  background-color: #ffffff;
+  border: 2px solid #9E9E9E; 
+  border-radius: 20px; 
+  padding: 8px 16px;
+  font-size: 14px;
+  cursor: pointer;
+  color: black;
+  transition: background-color 0.4s, color 0.4s;
+  text-decoration: none;
+}
+
+#_dash-app-content {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  flex-wrap: wrap;
+}
+.nav-button:hover {
+    background-color: #ED393B; 
+    color: black;
+    border: 2px solid #ED393B; 
+}
+
+
+h1{
+    text-align: center;
+    margin: 20px 0;
+
+}
+
+
+/*
+Adapted from https://stackoverflow.com/questions/44943464/plot-lydash-core-components-slider-color-change
+*/
+.rc-slider-track {
+    background-color: #ED393B;
+  }
+  
+.rc-slider-dot-active {
+  border: solid 2px #ED393B;
+}
+
+.rc-slider-handle {
+  background-color: #ED393B;
+  border-color: #ED393B;
+}
+
+.rc-slider-handle:hover {
+  border-color: #ED393B;
+}
+
+.rc-slider-handle-active:active {
+  border-color: #ED393B;
+}
+
+
